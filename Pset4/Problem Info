@@ -1,0 +1,18 @@
+Completed all problems (Parts A, B, and C)
+
+Part A: Permutations of a string
+
+-- Write a *recursive* procedure that generates all possible permutations of a string
+
+Part B: Cipher like Caesar
+
+-- Uses Caesar Cipher (shifting all alphabet characters) to encrypt messages
+-- Completed skeleton of code for a class and two subclasses for encryption and decryption
+
+Part C: Substitution Cipher
+
+-- Substitute vowels for other vowels to encrypt messages. Permutation map has considerably more possible
+maps, so we only substitute vowels in the problem.
+-- Completed skeleton of code for a class and two subclasses for encryption and decryption. Slightly different
+classes than in part B
+

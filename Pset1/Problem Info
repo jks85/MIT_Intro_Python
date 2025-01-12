@@ -1,0 +1,15 @@
+
+## Cube Root
+The file Cube_Root.py is not from the problem set. It includes a few procedures for finding cube roots
+using the following methods:
+
+- Guess and check
+- Approximation method
+- Bisect method
+
+
+The bisection method was also written to allow cube roots of any real number. The guess and check method
+works only for integers.
+
+## House Hunting
+I only completed the first implementation of the house hunting algorithm
