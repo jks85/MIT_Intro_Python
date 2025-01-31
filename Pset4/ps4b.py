@@ -198,7 +198,7 @@ class PlaintextMessage(Message):
 
         Returns: nothing
         '''
-        self.shift = shift  # change shift value
+        self.shift = shift  # change shift value. possibly superfluous
         self.__init__(self.get_message_text(),self.shift) # use init method to update dependencies
 
 

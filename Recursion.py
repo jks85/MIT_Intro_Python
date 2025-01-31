@@ -241,7 +241,7 @@ def power_set(n:int):
     '''
     Given an integer n, returns all possible subsets of integers 1,2,3,...,n (including empty set)
 
-    Note: A function that takes takes a list and returns the subsets would be better. See below ...
+    Note: A function that  takes a list and returns the subsets would be better. See below gen_power_set()
 
     :param n: positive integer n
     :return: returns list of all possible subsets of integers 1,2,...,n
@@ -257,7 +257,7 @@ def power_set(n:int):
 
 def gen_power_set(L):
     '''
-    Given an iterable (list, tuple, etc) generates the power set of elements in the iterable.
+    Given an iterable (list, tuple, etc.) generates the power set of elements in the iterable.
     The power set is returned as a *LIST*
 
     Note: The power set is the set of all possible sets (i.e. subsets of any size)

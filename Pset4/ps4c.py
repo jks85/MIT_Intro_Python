@@ -155,7 +155,7 @@ class EncryptedSubMessage(SubMessage):
             self.message_text (string, determined by input text)
             self.valid_words (list, determined using helper function load_words)
         '''
-        SubMessage.__init__(self, text) # initialize using SubMessage class. No new attributes
+        SubMessage.__init__(self, text) # initialize using SubMessage class. No data attributes
 
     def decrypt_message(self):
         '''
