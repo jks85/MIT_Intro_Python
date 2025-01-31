@@ -1,0 +1,84 @@
+Completed problems 1-11. Did not complete problem 12 since I could not find a workaround for the parser.
+The provided parser does not work due to some changes in the Python module 'collections'
+
+## RSS Feed Filter
+
+Code is provided to parse news for an RSS feed. Goal is to create a class of objects that contain news and related info,
+and classes to filter news stories
+
+Problem 1:
+
+Create the class *NewsStory* with the attributes below and related getter methods.
+
+-- story id
+-- title
+-- description
+-- web link
+-- publication date
+-- category
+
+
+## Triggers
+
+Code is provided for a *Trigger* class. The class has no functionality-- various subclasses were written that filter
+news objects in problems 2-10.
+
+Problem 2:
+
+Create the *Trigger* subclass *PhaseTrigger* which checks whether a phrase exists in a string
+
+
+Problem 3:
+
+Create the *PhaseTrigger* subclass *TitleTrigger* which filters titles for a given phrase
+
+
+Problem 4:
+
+Create the *PhaseTrigger* subclass *DescriptionTrigger* which filters descriptions for a given phrase
+
+
+## Time Triggers
+
+Create time based filters
+
+Problem 5:
+
+Create the *Trigger* subclass *TimeTrigger*
+
+
+Problem 6:
+
+Create the *TimeTrigger* subclasses *BeforeTrigger* and *AfterTrigger*. These subclasses filters news stories
+that occur before or after a certain time.
+
+
+## Composite Triggers
+
+Allow for more complex triggers based on whether filters are not present or occur simultaneously
+
+Problem 7:
+
+Create the *Trigger* subclass *NotTrigger*  which filters news stories based on whether another trigger does not appear.
+
+
+Problem 8:
+
+Create the *Trigger* subclass *And Trigger*  which filters news stories based on whether two triggers occur together.
+
+
+Problem 9:
+
+Create the *Trigger* subclass *OrTrigger*  which filters news stories based on whether at least one of two triggers
+appears.
+
+
+## Filters
+
+Helper code is provided that reads and parses a file containing trigger definitions. Code is also provided to display
+the RSS feed however the feed does not populate to changes in Python that affected the helper code for news parsing
+
+Problem 10
+
+Write a function, filter_stories(stories, triggerlist) that takes in a list of news
+stories and a list of triggers, and returns a list of only the stories for which a trigger fires.
